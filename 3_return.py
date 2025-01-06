@@ -1,10 +1,10 @@
 # Return Practice #1
 # Create a function called power that takes two numeric values as arguments. It must return the number that results from solving a power, using the first number as the base, and the second as the exponent
 
-
-
-
-
+def power(num1,num2):
+    z= num1 **num2
+    return z
+print(power(5,2))
 
 
 # Return Practice #2
@@ -14,7 +14,10 @@
 
 # Hint: to perform the conversion, the function internally must multiply this value in dollars by 0.90 to obtain the equivalent amount in euros.
 
-
+def usd_to_eur(dollar):
+    z= dollar * 0.90
+    return z
+print(usd_to_eur(10))
 
 
 # Return Practice #3
@@ -25,3 +28,10 @@
 # Also, you must create a variable called word, which contains any string, to pass it as an argument to the created function.
 
 # Hint: inside the created function, you should use string methods already seen.
+
+def reverse_word(word):
+    word= word.upper() 
+    reversed(word)
+    return word
+letter=reverse_word("python")
+print(letter)
