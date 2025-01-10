@@ -57,8 +57,9 @@
 #     for n in number: # created to see what number are inside 
 #         if n < 0:  # if they are less than 0 they negative 
 #             return False
-#     return False
-
+#     return True
+# result=(all_positive(number))
+# print(result)
 
 
 
@@ -91,4 +92,5 @@
 #         else:
 #             pass
 #     return even_numbers
-# variable= [124,43,5343]
+# variable= [124,43,5343,64,345,634,7657]
+#pritn(count_even(variable))
