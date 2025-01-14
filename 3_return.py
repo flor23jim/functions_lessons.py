@@ -29,10 +29,10 @@ print(usd_to_eur(10))
 
 # Hint: inside the created function, you should use string methods already seen.
 
-def reverse_word(word):
-    reverse = word[::-1]
-    capital = reverse.upper()
-    return capital
+# def reverse_word(word):
+#     reverse = word[::-1]
+#     capital = reverse.upper()
+#     return capital
 
-wordle = reverse_word("animal")
-print(wordle)
+# wordle = reverse_word("animal")
+# print(wordle)
